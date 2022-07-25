@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  </head>
-  <body class="container">
-    <header>
+    <!-- custome css  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+  <body>
+    <header class="container">
         <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
               <a class="navbar-brand" href="#"> <img src="images/logo.png"> </a>
@@ -37,7 +39,9 @@
         <section class="mt-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active border rounded bg-info p-5">
+
+                    <!-- img 1 -->
+                  <div class="carousel-item active border rounded panda-bg-info p-5">
                     <div class="row">
                         <div class="col-lg-7 d-flex align-items-center">
                             <div>
@@ -56,14 +60,16 @@
                         </div>
                     </div>
                   </div>
-                  <div class="carousel-item active border rounded bg-info p-5">
+
+                  <!-- img 2 -->
+                  <div class="carousel-item active border rounded panda-bg-info p-5">
                     <div class="row">
                         <div class="col-lg-7 d-flex align-items-center">
                             <div>
                                 <h1>X-BOX for your living room</h1>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius velit, ea eveniet quod quidem autem! Quisquam eaque error eligendi doloribus.</p>
                                 <h1>$500</h1>
-                                <div class="btn btn-warning">
+                                <div class="btn panda-btn-buy-now">
                                     Buy Now
                                 </div>
                              
@@ -75,7 +81,8 @@
                         </div>
                     </div>
                   </div>
-                  <div class="carousel-item active border rounded bg-info p-5">
+                  <!-- imm 3 -->
+                  <div class="carousel-item active border rounded panda-bg-info p-5">
                     <div class="row">
                         <div class="col-lg-7 d-flex align-items-center">
                             <div>
@@ -96,6 +103,7 @@
                   </div>
 
 
+
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -112,33 +120,33 @@
     </header>
 
      <!-- main star  -->
-     <main>
+     <main  class="container">
         <!-- catagories start  -->
         <section>
             <div class="text-center my-5">
                 <div class="row g-2">
                   <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="p-3 border bg-warning  d-flex align-items-center justify-content-around ">
+                    <div class="p-3 border bg-warning  d-flex align-items-center rounded-3 catagories ">
                         <h1 class="text-white">Watch</h1>
                         <img src="images/categories/watch.png" alt="">
                     </div>
                   </div>
                   
                   <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="p-3 border bg-info  d-flex align-items-center justify-content-around ">
+                    <div class="p-3 border panda-bg-info  d-flex align-items-center rounded-3  ">
                         <h1 class="text-white">Shoes</h1>
                         <img src="images/categories/shoes.png" alt="">
                     </div>
                   </div>
 
                   <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="p-3 border bg-primary  d-flex align-items-center justify-content-around ">
+                    <div class="p-3 border bg-primary  d-flex align-items-center rounded-3  ">
                         <h1 class="text-white">Bag</h1>
                         <img src="images/categories/bag.png" alt="">
                     </div>
                   </div>
                 </div>
-              </div>
+            </div>
         </section>
         <!-- catagories end  -->
 
@@ -154,7 +162,7 @@
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                     <div class="m-3">
-                        <div class="btn btn-info">Buy Now</div>
+                        <div class="btn panda-btn-buy-now">Buy Now</div>
                     </div>
                   </div>
                 </div>
@@ -166,7 +174,7 @@
                       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                     </div>
                     <div class="m-3">
-                      <div class="btn btn-info">Buy Now</div>
+                      <div class="btn panda-btn-buy-now">Buy Now</div>
                     </div>
                   </div>
                 </div>
@@ -178,7 +186,7 @@
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                     </div>
                     <div class="m-3">
-                        <div class="btn btn-info">Buy Now</div>
+                        <div class="btn panda-btn-buy-now">Buy Now</div>
                     </div>
                   </div>
                 </div>
@@ -199,7 +207,7 @@
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                     <div class="m-3">
-                        <div class="btn btn-info">Buy Now</div>
+                        <div class="btn panda-btn-buy-now">Buy Now</div>
                     </div>
                   </div>
                 </div>
@@ -212,7 +220,7 @@
                       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                     </div>
                     <div class="m-3">
-                      <div class="btn btn-info">Buy Now</div>
+                      <div class="btn panda-btn-buy-now">Buy Now</div>
                     </div>
                   </div>
                 </div>
@@ -225,7 +233,7 @@
                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                     </div>
                     <div class="m-3">
-                        <div class="btn btn-info">Buy Now</div>
+                        <div class="btn panda-btn-buy-now">Buy Now</div>
                     </div>
                   </div>
                 </div>
@@ -234,7 +242,7 @@
         <!-- bagpack section end  -->
 
         <!-- Subscribe start  -->
-        <section class="d-flex justify-content-center align-items-center bg-info rounded-3 pt-5 pb-5" id=subscribe>
+        <section class="d-flex justify-content-center align-items-center panda-bg-info rounded-3 pt-5 pb-5" id=subscribe>
             <div>
                 <h2>LET'S STAY IN TOUCH</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
@@ -242,7 +250,7 @@
                 <div class="mb-3">
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn panda-btn-buy-now">Submit</button>
             </form>
             </div>
         </section>
